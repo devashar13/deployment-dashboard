@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    margin: 15px;
+    
+    background-color: #16697a;
+    
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header__left{
+    display: flex;
+    flex: 1;
+    color: white;
+}
+.header__left>h3{
+    padding: 15px;
+    cursor: pointer;
+    background-color: #16697a;
+}
+.header__left>h3:hover{
+    background-color: gray;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.header__icons{
+    padding-left: 20px;
+}
+.header__right>h3{
+    padding-left: 20px;
+}
