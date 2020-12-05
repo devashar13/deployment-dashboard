@@ -13,13 +13,16 @@
     flex: 1;
     color: white;
 }
-.header__left>h3{
+
+.header__link:hover{
+    background-color: gray;
+}
+.header__link{
     padding: 15px;
     cursor: pointer;
     background-color: #16697a;
-}
-.header__left>h3:hover{
-    background-color: gray;
+    color: white;
+    text-decoration: none;
 }
 .header__right{
     display: flex;
