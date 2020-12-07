@@ -3,15 +3,18 @@ import './Header.css';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import FolderIcon from '@material-ui/icons/Folder';
+import { Link } from 'react-router-dom';
 function Header() {
     return (
         <nav className="header">
             <div className="header__left">
+                <Link
+                className="header__link"
+                 to='/container'>
                 <h3>Containers</h3>
-                <h3>Hosts</h3>
-                <h3>Apps</h3>
-                <h3>Resources</h3>
-                <h3>Admin</h3>
+                </Link>
+                
+                
             </div>
             <div className="header__right">
                 <FolderIcon/> 
